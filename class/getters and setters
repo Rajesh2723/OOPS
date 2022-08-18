@@ -30,6 +30,7 @@ int main(){
     Hero ramesh;
     cout<<"ramesh health:"<<ramesh.getHealth()<<endl;
     //ramesh.health=70;
+    //ramesh.setHealth(70);
     ramesh.level='A';
     cout<<"size of:"<<ramesh.getHealth()<<endl;
    cout<<"size of:"<<ramesh.level<<endl;
