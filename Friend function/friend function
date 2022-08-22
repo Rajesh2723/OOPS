@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+class A{
+int a = 2;     // Here the private varaibles 
+int b = 4;
+public: // friend function
+friend int mul(A k){
+return (k.a * k.b);              //private varibales are passed and they are accessed with the help of the dot operator 
+}
+};
+int main(){
+    A obj;
+int res = mul(obj);             /// and the object is passsed as the argument Here
+cout << res << endl;
+return 0;
+}
