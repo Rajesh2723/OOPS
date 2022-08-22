@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+// user-defined namespace
+namespace Add {
+int a = 5, b = 5;
+int add() {
+return (a + b);
+}
+}
+APNI KAKSHA
+int main() {
+int res = Add :: add(); // accessing the function inside namespace
+cout << res;
+}
+// output :
