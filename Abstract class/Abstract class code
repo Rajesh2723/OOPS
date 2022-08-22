@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+class Shape{
+public:
+virtual void draw()=0;
+};
+class Rectangle : Shape{
+public:
+void draw(){
+cout << "Rectangle" << endl;
+}
+};
+class Square : Shape{
+public:
+void draw(){
+cout << "Square" << endl;
+}
+};
+int main(){
+Rectangle rec;
+Square sq;
+
+rec.draw();
+sq.draw();
+return 0;
+}
