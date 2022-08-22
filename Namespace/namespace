@@ -7,7 +7,7 @@ int add() {
 return (a + b);
 }
 }
-APNI KAKSHA
+//APNI KAKSHA
 int main() {
 int res = Add :: add(); // accessing the function inside namespace
 cout << res;
