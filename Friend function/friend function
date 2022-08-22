@@ -14,3 +14,23 @@ int res = mul(obj);             /// and the object is passsed as the argument He
 cout << res << endl;
 return 0;
 }
+////
+friend version of mine
+#include <iostream>
+
+using namespace std;
+
+class something{
+    int a=4;
+    int b=4;
+    public:
+    friend int mul(something k){
+        return (k.a-k.b);
+    }
+};
+int main(){
+    something obj;
+    int res=mul(obj);
+    cout<<res<<endl;
+    return 0;
+}
