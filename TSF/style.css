@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    color:crimson;
+}
+#index{
+    background:url('indexbg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#welcome{
+    margin-top:80px;
+}
+h1{
+    font-size:50px;
+}
+#welcome h2{
+    font-size:40px;
+}
+.lead{
+    font-size:20px;
+}
+.lead1{
+    font-size:20px;
+}
+.table{
+    border-bottom: 1px solid black;
+}
+#transfer-done{
+    background:url('indexbg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#transferdiv{
+    margin-top:150px;
+}
+form{
+    text-align:center;
+    margin-top:150px;
+}
+input,select{
+    outline:none;
+    border:1px solid black;
+    width:50%;
+    margin-bottom:10px;
+    text-align:center;
+    font-size:20px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+}
+select option {
+    margin: 40px;
+    background: white;
+    color: crimson;
+}
+::placeholder{
+    color:crimson;
+}
