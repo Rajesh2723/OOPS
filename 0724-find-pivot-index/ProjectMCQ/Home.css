@@ -1,0 +1,14 @@
+ .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+ }
+ body{
+    background: radial-gradient(white, #00bcd4);
+ }
+ .Welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
