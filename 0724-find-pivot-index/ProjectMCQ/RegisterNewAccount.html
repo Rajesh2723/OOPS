@@ -1,0 +1,52 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<title> New Registration</title>
+<body>
+    
+    <div class="form">
+        <form action="/HomePage.html" >
+        <table >
+            <tr>
+               
+                <td><label for="FirstName">FirstName</label></td>
+                <td><input type="text" name="FirstName"><br><br></td>
+            </tr>
+            <tr>
+                <td><label for="LastName">LastName</label></td>
+                <td><input type="text" name="LastName"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="text" id="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="UserName">UserName</label></td>
+                <td><input type="text" id="UserName"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password</label></td>
+                <td><input type="password" id="Password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <select name="AccountType" id="AccountType" style="width:100%;">
+                        <option value="Basic">Basic</option>
+                        <option value="Contributor"></option>
+                        <option value="Moderator">Moderator</option>
+                    </select> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="GoToHome()"> Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
